@@ -5,6 +5,7 @@ import pages.RegistrationPage;
 
 public class RegistrationWithPageObjectsTests extends TestBase {
     private final RegistrationPage registrationPage = new RegistrationPage();
+
     @Test
     void successfulRegistrationTest() {
         String userName = "Maria",

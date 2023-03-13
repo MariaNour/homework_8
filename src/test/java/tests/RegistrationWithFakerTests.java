@@ -2,9 +2,7 @@ package tests;
 
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
-import pages.components.RegistrationResultsModal;
 
-import static com.codeborne.selenide.Selenide.sleep;
 import static tests.FakerTestData.*;
 
 public class RegistrationWithFakerTests extends TestBase {
