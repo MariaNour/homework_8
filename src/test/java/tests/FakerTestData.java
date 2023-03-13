@@ -29,7 +29,7 @@ public class FakerTestData {
 
     static Date fakerDateOfBirthday = faker.date().birthday();
 
-    static String dayOfBirth = (new SimpleDateFormat("d", Locale.ENGLISH)).format(fakerDateOfBirthday);
+    static String dayOfBirth = (new SimpleDateFormat("dd", Locale.ENGLISH)).format(fakerDateOfBirthday);
     static String monthOfBirth = (new SimpleDateFormat("MMMM", Locale.ENGLISH)).format(fakerDateOfBirthday);
     static String yearOfBirth = (new SimpleDateFormat("y", Locale.ENGLISH)).format(fakerDateOfBirthday);
 
